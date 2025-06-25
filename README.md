@@ -61,3 +61,24 @@ The script executes a clear, sequential workflow:
     * `requests`: For making HTTP requests to NewsAPI.
     * `configparser`: For securely managing API keys.
 
+---
+
+## Disclaimer & Future Work
+
+### 📜 Disclaimer
+
+This project is a Proof-of-Concept (PoC) created for educational and demonstrational purposes only. Its primary goal is to showcase the technical integration of APIs from both the Traditional Finance (TradFi) and Crypto ecosystems.
+
+* The data presented by this script is for informational purposes only and should **not** be considered financial advice, investment advice, or a recommendation to buy or sell any asset.
+* Market data and news sentiment can be volatile and are subject to change.
+* The author makes no guarantees regarding the accuracy of the data or the reliability of the code for production use. Always do your own research (DYOR).
+
+### 🚀 Future Improvements
+
+This project serves as a solid foundation. Several enhancements could be made to evolve it into a more robust tool:
+
+* **Advanced Sentiment Analysis:** Implement a more sophisticated sentiment analysis model, such as a pre-trained transformer like **FinBERT**, for more nuanced and context-aware scoring.
+* **Historical Data Analysis:** Store the results in a database (e.g., SQLite or a time-series DB like InfluxDB) to track and visualize the correlation between TradFi market sentiment and Bitcoin's price over time.
+* **Expanded Data Sources:** Integrate additional data sources, such as social media sentiment (e.g., Twitter/X API) or key on-chain metrics, to create a more comprehensive market indicator.
+* **Web Interface / API:** Refactor the application into a web service using a framework like **Flask** or **FastAPI**. This would allow it to serve the report via an API endpoint or display it on a simple web dashboard.
+* **Asynchronous Operations:** For improved performance, rewrite the API calls to be asynchronous using libraries like `aiohttp` and `asyncio`, allowing the script to fetch data from all sources concurrently.
