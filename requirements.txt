@@ -1,0 +1,4 @@
+ib-insync==0.9.86
+krakenex==2.2.2
+requests==2.32.4
+vaderSentiment==3.3.2

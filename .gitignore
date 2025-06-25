@@ -1,0 +1,22 @@
+# Entorno Virtual de Python
+kraken_api_env/
+*.kraken_api_env
+env/
+.env
+
+# Archivos de configuración con secretos
+config.ini
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Archivos específicos de VSC
+.vscode/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Credenciales y logs
+credentials.json
+*.log
